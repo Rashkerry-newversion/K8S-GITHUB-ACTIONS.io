@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: portfolio
-        image: rashkerry/rashida-resume:latest
+        image: rashkerry/rashida-portfolio:latest
         ports:
         - containerPort: 80
         resources:
