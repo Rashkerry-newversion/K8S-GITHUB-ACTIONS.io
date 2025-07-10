@@ -27,6 +27,6 @@ jobs:
       with:
         context: .
         push: true
-        tags: rashkerry/rashida-portfolio:latest
+        tags: rashkerry/resume-app:latest
 
     
