@@ -104,7 +104,7 @@ jobs:
 
 ![Secrets And Variables](images/sandvactions.png)
 
-![Adding new secret](images/newreposecret)
+![Adding new secret](images/newreposecret.png)
 
 - Enter dockerhub username as the secret and the name `DOCKERHUB_USERNAME`
 - To get dockerhub token
