@@ -107,6 +107,9 @@ jobs:
 ![Adding new secret](images/newreposecret.png)
 
 - Enter dockerhub username as the secret and the name `DOCKERHUB_USERNAME`
+
+ ![Add secrets](images/secretspage.png)
+  
 - To get dockerhub token
    Go to dockerhub desktop
    Click on profile and go to account settings (this will take you to dockerhub web)
@@ -119,7 +122,10 @@ jobs:
 
    ![Account Settings](images/secretaccesstoken.png)
 
-- Copy the token and add it as a secret with name `DOCKERHUB_TOKEN`  
+- Copy the token and add it as a secret with name `DOCKERHUB_TOKEN`
+
+  ![Add secrets](images/secretspage.png)
+   
 - From there push contents to GitHub to start build process.
 
 ```bash
@@ -227,15 +233,5 @@ minikube service portfolio-service
 kubectl delete -f deployment.yml
 kubectl delete -f service.yml
 ```
-
----
-
-## 📬 Contact
-
-**Rashida Mohammed**  
-🔗 [LinkedIn](https://www.linkedin.com/in/rashida-mohammed-cloud)  
-💻 [GitHub](https://github.com/Rashkerry-newversion)
-
----
 
 MIT © 2025 Rashida Mohammed
